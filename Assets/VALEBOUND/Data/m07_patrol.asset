@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: m07_patrol
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: m07_patrol
+  title: Officer Ruiz's Favor
+  introText: 'Dana needs an extra pair of wheels for community patrol day in Willowbrook:
+    check the school crossing and the market.'
+  completeText: "Patrol complete. Dana owes you one \u2014 and mentions Meridian
+    trucks parked illegally at the docks at night."
+  giverNpcId: dana
+  storyIndex: 6
+  isMainStory: 1
+  objectives:
+  - type: 8
+    description: Meet Officer Ruiz at the police post
+    targetPos: {x: -680, y: 0, z: 560}
+    radius: 8
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 3
+    description: Check the Maple Elementary crossing
+    targetPos: {x: -780, y: 0, z: 620}
+    radius: 10
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 3
+    description: Check the Sunday Market stalls
+    targetPos: {x: -610, y: 0, z: 760}
+    radius: 10
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 300
+    xp: 160
+    unlockVehicleId: 
+    achievementId: story_7
+  requiresMissionId: m06_
+  requiredPlayerLevel: 4

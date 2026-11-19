@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: s06_founders
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: s06_founders
+  title: The Founders' Relay
+  introText: "The valley's founding charter must visit every city hall in one day
+    \u2014 Port Meridian, Petal Vale, Mirage Basin, Frostpeak, Emberfall. A relay
+    for the history books."
+  completeText: 'The charter is home. Mara pins the relay medal on your jacket: ''The
+    valley remembers.'''
+  giverNpcId: mara
+  storyIndex: -1
+  isMainStory: 0
+  objectives:
+  - type: 1
+    description: Show the charter at Bounders HQ
+    targetPos: {x: -60, y: 0, z: 740}
+    radius: 10
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 1
+    description: Petal Vale city hall
+    targetPos: {x: 1800, y: 0, z: 300}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 1
+    description: Mirage Basin city hall
+    targetPos: {x: -1900, y: 0, z: -1400}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 1
+    description: Frostpeak city hall
+    targetPos: {x: -1900, y: 0, z: 1400}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 1
+    description: Emberfall city hall
+    targetPos: {x: 1900, y: 0, z: -1500}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 900
+    xp: 420
+    unlockVehicleId: race-future
+    achievementId: founders_relay
+  requiresMissionId: 
+  requiredPlayerLevel: 2

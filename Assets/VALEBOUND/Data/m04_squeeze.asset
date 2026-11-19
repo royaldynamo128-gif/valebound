@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: m04_squeeze
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: m04_squeeze
+  title: The Squeeze
+  introText: 'Meridian is undercutting every guild contract. Cass has a plan: win
+    the Foundry Flats street race and the dock crews will stay loyal.'
+  completeText: Checkered flag! The dock crews chant 'Bounders' as you coast in.
+  giverNpcId: cass
+  storyIndex: 3
+  isMainStory: 1
+  objectives:
+  - type: 8
+    description: Meet Cass at Silva Salvage
+    targetPos: {x: 760, y: 0, z: -560}
+    radius: 8
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 6
+    description: Win the Foundry Circuit race
+    targetPos: {x: 700, y: 0, z: -700}
+    radius: 14
+    timeLimit: 150
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 3
+    description: Celebrate at the Container Yard
+    targetPos: {x: 800, y: 0, z: -620}
+    radius: 10
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 320
+    xp: 150
+    unlockVehicleId: 
+    achievementId: story_4
+  requiresMissionId: m03_
+  requiredPlayerLevel: 2

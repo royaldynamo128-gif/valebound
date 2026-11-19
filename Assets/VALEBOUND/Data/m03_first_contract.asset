@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: m03_first_contract
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: m03_first_contract
+  title: The First Contract
+  introText: A big client wants same-hour freight runs between the station and the
+    steelworks. Prove the guild still has legs.
+  completeText: Contract secured. Meridian's courier division just lost its easiest
+    win.
+  giverNpcId: mara
+  storyIndex: 2
+  isMainStory: 1
+  objectives:
+  - type: 1
+    description: Pick up the freight manifest at Central Station
+    targetPos: {x: 40, y: 0, z: 880}
+    radius: 8
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 3
+    description: Drive the freight to Aurora Steelworks
+    targetPos: {x: 700, y: 0, z: -700}
+    radius: 12
+    timeLimit: 180
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 1
+    description: Get the signature at the Rail Depot office
+    targetPos: {x: 580, y: 0, z: -760}
+    radius: 8
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 260
+    xp: 120
+    unlockVehicleId: van
+    achievementId: story_3
+  requiresMissionId: m02_
+  requiredPlayerLevel: 2

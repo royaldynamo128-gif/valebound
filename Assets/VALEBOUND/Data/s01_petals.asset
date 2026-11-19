@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: s01_petals
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: s01_petals
+  title: Petals on the Wind
+  introText: Petal Vale's spring festival needs flowers delivered before the wind
+    scatters them. A bike is the only thing quick enough for the narrow lanes.
+  completeText: "The festival queen crowns you 'Honorary Petal' \u2014 it's a hat
+    made of blossoms. You keep it."
+  giverNpcId: mara
+  storyIndex: -1
+  isMainStory: 0
+  objectives:
+  - type: 2
+    description: Hop on the guild bike
+    targetPos: {x: 1800, y: 0, z: 430}
+    radius: 8
+    timeLimit: 0
+    vehicleId: bike
+    count: 1
+    collected: 0
+  - type: 1
+    description: Deliver flower baskets to the festival stage
+    targetPos: {x: 1800, y: 0, z: 300}
+    radius: 10
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 4
+    description: Gather drifting petals for the garland
+    targetPos: {x: 1820, y: 0, z: 320}
+    radius: 14
+    timeLimit: 90
+    vehicleId: 
+    count: 6
+    collected: 0
+  reward:
+    credits: 260
+    xp: 130
+    unlockVehicleId: 
+    achievementId: 
+  requiresMissionId: 
+  requiredPlayerLevel: 2

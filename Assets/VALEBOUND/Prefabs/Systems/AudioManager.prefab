@@ -1,0 +1,679 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3000150414747855302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3717714116616383765}
+  - component: {fileID: 947675919667236097}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3717714116616383765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3000150414747855302}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &947675919667236097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3000150414747855302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb080a343cc5e62e1a1175ce3c4d262a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - id: sfx/ui/back_001
+    clip: {fileID: 8300000, guid: 664c85c6f61b62529a6ff603c7fc1518, type: 3}
+    volume: 0.8
+  - id: sfx/ui/back_002
+    clip: {fileID: 8300000, guid: 4c0508b22113d3b32a65ca4742d598b7, type: 3}
+    volume: 0.8
+  - id: sfx/ui/back_003
+    clip: {fileID: 8300000, guid: 1e426a2560a31c08ab77cc69a387d97a, type: 3}
+    volume: 0.8
+  - id: sfx/ui/back_004
+    clip: {fileID: 8300000, guid: 401cf74c782c7ed46ad1368b8bef374f, type: 3}
+    volume: 0.8
+  - id: sfx/ui/bong_001
+    clip: {fileID: 8300000, guid: 3d67e3ec9666ebdb596d49d11ed69767, type: 3}
+    volume: 0.8
+  - id: sfx/ui/click_001
+    clip: {fileID: 8300000, guid: 3150ccb4d2faf0507a3f69eb1779d330, type: 3}
+    volume: 0.8
+  - id: sfx/ui/click_002
+    clip: {fileID: 8300000, guid: 89ee2f82c6a5cf05f949af95ec60396b, type: 3}
+    volume: 0.8
+  - id: sfx/ui/click_003
+    clip: {fileID: 8300000, guid: aa8baa909cca73bbc9984e6383c5f681, type: 3}
+    volume: 0.8
+  - id: sfx/ui/click_004
+    clip: {fileID: 8300000, guid: 778dc5441d56b0245aaa7b05712bb523, type: 3}
+    volume: 0.8
+  - id: sfx/ui/click_005
+    clip: {fileID: 8300000, guid: b4b46609b719a5987b0e55460ed217b8, type: 3}
+    volume: 0.8
+  - id: sfx/ui/close_001
+    clip: {fileID: 8300000, guid: 6d31fe929de83647abe8effb84aa2edb, type: 3}
+    volume: 0.8
+  - id: sfx/ui/close_002
+    clip: {fileID: 8300000, guid: 18f62cce6812fb485b2e97fc871a1676, type: 3}
+    volume: 0.8
+  - id: sfx/ui/close_003
+    clip: {fileID: 8300000, guid: 274702891e5cee5e3abf685ea8ce68f8, type: 3}
+    volume: 0.8
+  - id: sfx/ui/close_004
+    clip: {fileID: 8300000, guid: cea9e9413549cc78aa8314554fc6b1de, type: 3}
+    volume: 0.8
+  - id: sfx/ui/confirmation_001
+    clip: {fileID: 8300000, guid: 142c2bd08a1af3eeda651e2b900fba48, type: 3}
+    volume: 0.8
+  - id: sfx/ui/confirmation_002
+    clip: {fileID: 8300000, guid: 71a809f1caa51bc09a73b54b352bbaf6, type: 3}
+    volume: 0.8
+  - id: sfx/ui/confirmation_003
+    clip: {fileID: 8300000, guid: 38d40f4fb8d02127f9c9f9f155c849d2, type: 3}
+    volume: 0.8
+  - id: sfx/ui/confirmation_004
+    clip: {fileID: 8300000, guid: 1304e7b508062e9b78a687a5933b703d, type: 3}
+    volume: 0.8
+  - id: sfx/ui/drop_001
+    clip: {fileID: 8300000, guid: 0ae11da7a179d90dc97fc294b3b1c57a, type: 3}
+    volume: 0.8
+  - id: sfx/ui/drop_002
+    clip: {fileID: 8300000, guid: e653a85528d53996bb1db2746ef99e00, type: 3}
+    volume: 0.8
+  - id: sfx/ui/drop_003
+    clip: {fileID: 8300000, guid: 0dbfcc40689c047fc9a7dfeea0ed7a2a, type: 3}
+    volume: 0.8
+  - id: sfx/ui/drop_004
+    clip: {fileID: 8300000, guid: 5f3a6d1c0be4b2033bbf70537942cc9a, type: 3}
+    volume: 0.8
+  - id: sfx/ui/error_001
+    clip: {fileID: 8300000, guid: 053f17dd0887547b8b7d59db104b5b57, type: 3}
+    volume: 0.8
+  - id: sfx/ui/error_002
+    clip: {fileID: 8300000, guid: 4922c072d8fd11bb087fa28a8fb47e07, type: 3}
+    volume: 0.8
+  - id: sfx/ui/error_003
+    clip: {fileID: 8300000, guid: 2ffd9b63f1381630484ee0cf638ccf6b, type: 3}
+    volume: 0.8
+  - id: sfx/ui/error_004
+    clip: {fileID: 8300000, guid: 457d24e48fcd4314e98379ac2c4ea7a9, type: 3}
+    volume: 0.8
+  - id: sfx/ui/error_005
+    clip: {fileID: 8300000, guid: ea87ad2c11faee52ab23cc655509ddb1, type: 3}
+    volume: 0.8
+  - id: sfx/ui/error_006
+    clip: {fileID: 8300000, guid: 88483da04e4351a5eb48b7d6c3ee3da9, type: 3}
+    volume: 0.8
+  - id: sfx/ui/error_007
+    clip: {fileID: 8300000, guid: a2ec2bc0c4963fff8be5e1e49cbf9bb4, type: 3}
+    volume: 0.8
+  - id: sfx/ui/error_008
+    clip: {fileID: 8300000, guid: a0fa0e1d3750d35b2b26e690527bd8d8, type: 3}
+    volume: 0.8
+  - id: sfx/ui/glass_001
+    clip: {fileID: 8300000, guid: 161c1c957b14a8406aecd8e7dca695e9, type: 3}
+    volume: 0.8
+  - id: sfx/ui/glass_002
+    clip: {fileID: 8300000, guid: eaa74c9c8dd151f92a80dff825417aad, type: 3}
+    volume: 0.8
+  - id: sfx/ui/glass_003
+    clip: {fileID: 8300000, guid: 2a41c503ca4309704a299406bff1ea28, type: 3}
+    volume: 0.8
+  - id: sfx/ui/glass_004
+    clip: {fileID: 8300000, guid: 802f78250a99434d0b9e0c8f490636a0, type: 3}
+    volume: 0.8
+  - id: sfx/ui/glass_005
+    clip: {fileID: 8300000, guid: 264c91768b8a097139e42e8ebd4f499f, type: 3}
+    volume: 0.8
+  - id: sfx/ui/glass_006
+    clip: {fileID: 8300000, guid: f5507005f82b042c28aec283073f0466, type: 3}
+    volume: 0.8
+  - id: sfx/ui/glitch_001
+    clip: {fileID: 8300000, guid: a1f250e0f903619c58ba13690011b87f, type: 3}
+    volume: 0.8
+  - id: sfx/ui/glitch_002
+    clip: {fileID: 8300000, guid: 41d81d0d95dcb38a8943f43b06033ec1, type: 3}
+    volume: 0.8
+  - id: sfx/ui/glitch_003
+    clip: {fileID: 8300000, guid: 5c7a600499bf12631b6e40cf169a169f, type: 3}
+    volume: 0.8
+  - id: sfx/ui/glitch_004
+    clip: {fileID: 8300000, guid: 7010c2c882ed8e5ba87920e6a411cda9, type: 3}
+    volume: 0.8
+  - id: sfx/ui/maximize_001
+    clip: {fileID: 8300000, guid: f2f14167b569ef589a9fc3ff581f0158, type: 3}
+    volume: 0.8
+  - id: sfx/ui/maximize_002
+    clip: {fileID: 8300000, guid: f6b6b235f136612258129fa368367683, type: 3}
+    volume: 0.8
+  - id: sfx/ui/maximize_003
+    clip: {fileID: 8300000, guid: 6f70f1031749081ad8c7682584e5ef15, type: 3}
+    volume: 0.8
+  - id: sfx/ui/maximize_004
+    clip: {fileID: 8300000, guid: 633c619997fe09c32bc919d56d58e3ef, type: 3}
+    volume: 0.8
+  - id: sfx/ui/maximize_005
+    clip: {fileID: 8300000, guid: 456ee11d9203e4a6e914febb0c375f1b, type: 3}
+    volume: 0.8
+  - id: sfx/ui/maximize_006
+    clip: {fileID: 8300000, guid: cef0ff7924aab2c88afef0d4a3efe775, type: 3}
+    volume: 0.8
+  - id: sfx/ui/maximize_007
+    clip: {fileID: 8300000, guid: 65b11983cbfd939ec9b1d7bd761a25b7, type: 3}
+    volume: 0.8
+  - id: sfx/ui/maximize_008
+    clip: {fileID: 8300000, guid: 0fe49abc60caa4ce8afecdfdd643b613, type: 3}
+    volume: 0.8
+  - id: sfx/ui/maximize_009
+    clip: {fileID: 8300000, guid: e722430b2e287a9019b8831370918995, type: 3}
+    volume: 0.8
+  - id: sfx/ui/minimize_001
+    clip: {fileID: 8300000, guid: 897eea84dfccb2d7a80aeb88b70c7711, type: 3}
+    volume: 0.8
+  - id: sfx/ui/minimize_002
+    clip: {fileID: 8300000, guid: ae77ade28ea15bd04a7547079853fafd, type: 3}
+    volume: 0.8
+  - id: sfx/ui/minimize_003
+    clip: {fileID: 8300000, guid: 1bc6732254050f788acf9e551688c43f, type: 3}
+    volume: 0.8
+  - id: sfx/ui/minimize_004
+    clip: {fileID: 8300000, guid: d50278a603720ff6a9e92e5770f1a72e, type: 3}
+    volume: 0.8
+  - id: sfx/ui/minimize_005
+    clip: {fileID: 8300000, guid: dde4ca1bf763b8f5a936afe3561ca4c0, type: 3}
+    volume: 0.8
+  - id: sfx/ui/minimize_006
+    clip: {fileID: 8300000, guid: 79cb34fdec15d79d88f16743ac1bd6e6, type: 3}
+    volume: 0.8
+  - id: sfx/ui/minimize_007
+    clip: {fileID: 8300000, guid: 49f180caaf8d8cf949c14cb17cd14281, type: 3}
+    volume: 0.8
+  - id: sfx/ui/minimize_008
+    clip: {fileID: 8300000, guid: 8e55c34fd9c4aed2885d1f61438330e2, type: 3}
+    volume: 0.8
+  - id: sfx/ui/minimize_009
+    clip: {fileID: 8300000, guid: 90bb68830269777439256bfd9031348e, type: 3}
+    volume: 0.8
+  - id: sfx/ui/open_001
+    clip: {fileID: 8300000, guid: bf3a015efefed2e13b204637d8c8f438, type: 3}
+    volume: 0.8
+  - id: sfx/ui/open_002
+    clip: {fileID: 8300000, guid: 468e023e87133029198c121cc5f15fe3, type: 3}
+    volume: 0.8
+  - id: sfx/ui/open_003
+    clip: {fileID: 8300000, guid: e23b27ad9e1d171569affde9ee916480, type: 3}
+    volume: 0.8
+  - id: sfx/ui/open_004
+    clip: {fileID: 8300000, guid: b0032e7478f53c8938d09a9f1f2f811c, type: 3}
+    volume: 0.8
+  - id: sfx/ui/pluck_001
+    clip: {fileID: 8300000, guid: 1b0ec2794baa195109e73e4a74f9a62a, type: 3}
+    volume: 0.8
+  - id: sfx/ui/pluck_002
+    clip: {fileID: 8300000, guid: 3dac3b25b3e0feac888f1457081c7238, type: 3}
+    volume: 0.8
+  - id: sfx/ui/question_001
+    clip: {fileID: 8300000, guid: 5666e0f4967222dfdb70fd7870df94a3, type: 3}
+    volume: 0.8
+  - id: sfx/ui/question_002
+    clip: {fileID: 8300000, guid: 56988460aaffdbaefafe02599c994f0e, type: 3}
+    volume: 0.8
+  - id: sfx/ui/question_003
+    clip: {fileID: 8300000, guid: 31725b2a04cd0f7a6820f35393fe1417, type: 3}
+    volume: 0.8
+  - id: sfx/ui/question_004
+    clip: {fileID: 8300000, guid: db3d7ca797214fb53b002169f6d0458e, type: 3}
+    volume: 0.8
+  - id: sfx/ui/scratch_001
+    clip: {fileID: 8300000, guid: 3e17a4ca9c9d6d7589c57c15a3c10b91, type: 3}
+    volume: 0.8
+  - id: sfx/ui/scratch_002
+    clip: {fileID: 8300000, guid: 683ba86ef06237705ad9f3c641d07f5f, type: 3}
+    volume: 0.8
+  - id: sfx/ui/scratch_003
+    clip: {fileID: 8300000, guid: fa6825644339f88d5b9ebc84552d9150, type: 3}
+    volume: 0.8
+  - id: sfx/ui/scratch_004
+    clip: {fileID: 8300000, guid: 7ab4ca7d5547e13728fbd846c324dcfa, type: 3}
+    volume: 0.8
+  - id: sfx/ui/scratch_005
+    clip: {fileID: 8300000, guid: 115d98a19c6b5ba92bb7dc3955714d65, type: 3}
+    volume: 0.8
+  - id: sfx/ui/scroll_001
+    clip: {fileID: 8300000, guid: 3c161a200ac95953b816d7dce09a5eb3, type: 3}
+    volume: 0.8
+  - id: sfx/ui/scroll_002
+    clip: {fileID: 8300000, guid: 8c873423cb29aababb9cbfd83dca04b9, type: 3}
+    volume: 0.8
+  - id: sfx/ui/scroll_003
+    clip: {fileID: 8300000, guid: b420ce2b8d95c2d4797f9ce19e6e1708, type: 3}
+    volume: 0.8
+  - id: sfx/ui/scroll_004
+    clip: {fileID: 8300000, guid: 6f25d525cf3209d769416bc2709fff32, type: 3}
+    volume: 0.8
+  - id: sfx/ui/scroll_005
+    clip: {fileID: 8300000, guid: c65dd8b922a8ef76fa2327bf70bd9972, type: 3}
+    volume: 0.8
+  - id: sfx/ui/select_001
+    clip: {fileID: 8300000, guid: d2c4a42dcd366714796cbfb2c816352c, type: 3}
+    volume: 0.8
+  - id: sfx/ui/select_002
+    clip: {fileID: 8300000, guid: fc678f24fc59260baa63c554c806a5c1, type: 3}
+    volume: 0.8
+  - id: sfx/ui/select_003
+    clip: {fileID: 8300000, guid: 6c3259d96511df935a990bd9f94d1225, type: 3}
+    volume: 0.8
+  - id: sfx/ui/select_004
+    clip: {fileID: 8300000, guid: e064e966a2c9837b9964c5ea1aaf582f, type: 3}
+    volume: 0.8
+  - id: sfx/ui/select_005
+    clip: {fileID: 8300000, guid: 9cc7fb668f565151d838339587a2eb48, type: 3}
+    volume: 0.8
+  - id: sfx/ui/select_006
+    clip: {fileID: 8300000, guid: 2175a79106bcef7a9bf101269a418871, type: 3}
+    volume: 0.8
+  - id: sfx/ui/select_007
+    clip: {fileID: 8300000, guid: d83118cd6b6657d86bb4c7f6ca736083, type: 3}
+    volume: 0.8
+  - id: sfx/ui/select_008
+    clip: {fileID: 8300000, guid: a565fcce3add9aacbbe150740aaf7be4, type: 3}
+    volume: 0.8
+  - id: sfx/ui/switch_001
+    clip: {fileID: 8300000, guid: aa80c58d7c29c9c59afa30333113092c, type: 3}
+    volume: 0.8
+  - id: sfx/ui/switch_002
+    clip: {fileID: 8300000, guid: 3b861baf887d3024682475c663efc0f2, type: 3}
+    volume: 0.8
+  - id: sfx/ui/switch_003
+    clip: {fileID: 8300000, guid: 49ff98e5a5cda6203a9ebf4d4804e4c9, type: 3}
+    volume: 0.8
+  - id: sfx/ui/switch_004
+    clip: {fileID: 8300000, guid: 6c97a2d853ce6f9d996bd42d43689ec3, type: 3}
+    volume: 0.8
+  - id: sfx/ui/switch_005
+    clip: {fileID: 8300000, guid: 62c23d2ed03ea2c8fa57c63301d84c34, type: 3}
+    volume: 0.8
+  - id: sfx/ui/switch_006
+    clip: {fileID: 8300000, guid: 25b2d0835d594e3eb834373b8b4f8b4d, type: 3}
+    volume: 0.8
+  - id: sfx/ui/switch_007
+    clip: {fileID: 8300000, guid: 6c20eb5899563324f8b177b6def39787, type: 3}
+    volume: 0.8
+  - id: sfx/ui/tick_001
+    clip: {fileID: 8300000, guid: 61aa4ad06991264d6bfce170f2e1926b, type: 3}
+    volume: 0.8
+  - id: sfx/ui/tick_002
+    clip: {fileID: 8300000, guid: 6e6e5fe9702ff9a5d93eb0ba5784d255, type: 3}
+    volume: 0.8
+  - id: sfx/ui/tick_004
+    clip: {fileID: 8300000, guid: 0e65ed466bf9471ce8d919539e510ca0, type: 3}
+    volume: 0.8
+  - id: sfx/ui/toggle_001
+    clip: {fileID: 8300000, guid: 70b2f3c991e93d9f083151046b9207a4, type: 3}
+    volume: 0.8
+  - id: sfx/ui/toggle_002
+    clip: {fileID: 8300000, guid: ce4527f2d44243a4893b152ad7307a96, type: 3}
+    volume: 0.8
+  - id: sfx/ui/toggle_003
+    clip: {fileID: 8300000, guid: 19fefc4d90fa23f348214d0180749314, type: 3}
+    volume: 0.8
+  - id: sfx/ui/toggle_004
+    clip: {fileID: 8300000, guid: 9db912ae37b21c04d915130f4d94bbb7, type: 3}
+    volume: 0.8
+  - id: sfx/vehicle/car_acceleration
+    clip: {fileID: 8300000, guid: 9419dd70e42e51affa6c85618c594b04, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_acceleration_2
+    clip: {fileID: 8300000, guid: e43180ba3f39a5ef9a951ee28239f1ac, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_door_close
+    clip: {fileID: 8300000, guid: 64b76612291b98b0b9f838f201fd3391, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_door_open
+    clip: {fileID: 8300000, guid: b3b2d9b0bfe0edd4c8ba61e71803a59f, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_engine_loop
+    clip: {fileID: 8300000, guid: 2681c7b10246866aaa5fded6e2e1b154, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_engine_loop_2
+    clip: {fileID: 8300000, guid: 7e1af5eb86b93fb599175b95feef2c4c, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_engine_start_up
+    clip: {fileID: 8300000, guid: 90f21d7804cce3047a445f2b051e3116, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_engine_turning_off
+    clip: {fileID: 8300000, guid: c1324bf666ebe59d69f0091c55f677f3, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_hood_close
+    clip: {fileID: 8300000, guid: 4670511feaa349dd5b47f3c90eda6b81, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_hood_open
+    clip: {fileID: 8300000, guid: 5b7a1c14964acfd3fb7e30a52f89777f, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_horn
+    clip: {fileID: 8300000, guid: 6a577cbbb5150c3638e79b62ee2c24d6, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_parking_brake
+    clip: {fileID: 8300000, guid: 5a0e8ade2ce338c87b601216f8def0a1, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_trunk_open
+    clip: {fileID: 8300000, guid: 036503dde61298ebfbe4cb94fba712ce, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/car_start_engine
+    clip: {fileID: 8300000, guid: 3ab8800be46c8e52aba679c423591992, type: 3}
+    volume: 0.9
+  - id: sfx/vehicle/engine_start_up
+    clip: {fileID: 8300000, guid: dd03ff3bd95fa84458288efe5c9ebf80, type: 3}
+    volume: 0.9
+  - id: sfx/loop/alarm_01
+    clip: {fileID: 8300000, guid: 46682ae51ed717e18a4dfe0410c8eee9, type: 3}
+    volume: 0.7
+  - id: sfx/loop/alarm_02
+    clip: {fileID: 8300000, guid: e18a534dc095e31479b8e4f7bfe8a259, type: 3}
+    volume: 0.7
+  - id: sfx/loop/alarm_03
+    clip: {fileID: 8300000, guid: 811b62ce9a3636f51a94a7453c846e59, type: 3}
+    volume: 0.7
+  - id: sfx/loop/ambient_01
+    clip: {fileID: 8300000, guid: 615819c4609dba803bca81e83ed4f192, type: 3}
+    volume: 0.7
+  - id: sfx/loop/ambient_02
+    clip: {fileID: 8300000, guid: 3e4c669e023535fbd8d0564f77636c72, type: 3}
+    volume: 0.7
+  - id: sfx/loop/ambient_03
+    clip: {fileID: 8300000, guid: 0bfa858f8c927bdd69854610383a7071, type: 3}
+    volume: 0.7
+  - id: sfx/loop/machine_01
+    clip: {fileID: 8300000, guid: cfbaf1a2e1e328e40b9770d68e4d6374, type: 3}
+    volume: 0.7
+  - id: sfx/loop/machine_02
+    clip: {fileID: 8300000, guid: 9b7d1a09d797c8fc58556199b5346786, type: 3}
+    volume: 0.7
+  - id: sfx/loop/machine_03
+    clip: {fileID: 8300000, guid: 3fd44f6f1c58f1a5abd4a817b04bc3ba, type: 3}
+    volume: 0.7
+  - id: sfx/loop/machine_04
+    clip: {fileID: 8300000, guid: a4fe3fff8fc446953bf32aa700040743, type: 3}
+    volume: 0.7
+  - id: sfx/loop/machine_05
+    clip: {fileID: 8300000, guid: b7079945c95f1ef24b805d44ea03312f, type: 3}
+    volume: 0.7
+  - id: sfx/loop/machine_06
+    clip: {fileID: 8300000, guid: f3c969d6409cbfd47aef181a9bc3c7ac, type: 3}
+    volume: 0.7
+  - id: sfx/loop/machine_07
+    clip: {fileID: 8300000, guid: da632d31a3e62f0858ace2e2d02ac950, type: 3}
+    volume: 0.7
+  - id: sfx/loop/machine_08
+    clip: {fileID: 8300000, guid: d4b99778626b9e49c9c3bccc28367ac2, type: 3}
+    volume: 0.7
+  - id: sfx/loop/machine_09
+    clip: {fileID: 8300000, guid: 8a63f4761e4eeceb8b2067b27afcadc3, type: 3}
+    volume: 0.7
+  - id: sfx/loop/machine_10
+    clip: {fileID: 8300000, guid: 2e44e3228a54e1be1bdf2e07d73afaa9, type: 3}
+    volume: 0.7
+  - id: sfx/loop/machine_11
+    clip: {fileID: 8300000, guid: e9df66a4f72cc435296b02430ef4373d, type: 3}
+    volume: 0.7
+  - id: sfx/loop/noise_01
+    clip: {fileID: 8300000, guid: d12d48ea882aeeb91850d4aa7635803e, type: 3}
+    volume: 0.7
+  - id: sfx/loop/noise_02
+    clip: {fileID: 8300000, guid: 121649b69347085858803274de8f116e, type: 3}
+    volume: 0.7
+  - id: sfx/loop/noise_03
+    clip: {fileID: 8300000, guid: 760144e2a2883e8a39edfd7f596806e9, type: 3}
+    volume: 0.7
+  - id: sfx/loop/pump_01
+    clip: {fileID: 8300000, guid: 61a79a091f21fb423bf799d2b300757b, type: 3}
+    volume: 0.7
+  - id: sfx/loop/pump_02
+    clip: {fileID: 8300000, guid: d05a5fc68fa1100bcab87865f1f0ed95, type: 3}
+    volume: 0.7
+  - id: sfx/loop/rain
+    clip: {fileID: 8300000, guid: 4e412c89edb0ca02c8a381a47a26713e, type: 3}
+    volume: 0.7
+  - id: sfx/loop/rolling
+    clip: {fileID: 8300000, guid: 51f2afb6f4b284b20bcbb00ac80f158f, type: 3}
+    volume: 0.7
+  - id: sfx/loop/saw
+    clip: {fileID: 8300000, guid: 41ae9624543a1182b827405d7bd26a2a, type: 3}
+    volume: 0.7
+  - id: sfx/loop/water_boiling
+    clip: {fileID: 8300000, guid: dba429fa18fdc3a07a06e5cfe41260f6, type: 3}
+    volume: 0.7
+  - id: sfx/loop/water_flowing
+    clip: {fileID: 8300000, guid: 1b94cf258b450debd924681b2f904dfe, type: 3}
+    volume: 0.7
+  - id: sfx/loop/weird_01
+    clip: {fileID: 8300000, guid: 87465df5eae8c936aa8bf80e0d6ab5fa, type: 3}
+    volume: 0.7
+  - id: sfx/loop/weird_02
+    clip: {fileID: 8300000, guid: 7e1e95b5cddf73cd89440e142d70ff33, type: 3}
+    volume: 0.7
+  - id: sfx/loop/weird_03
+    clip: {fileID: 8300000, guid: 39e8d37a5be5784c9b204078c144e0c4, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/belthandle1
+    clip: {fileID: 8300000, guid: b2599958dfe403fd890f9e7dc550a2ed, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/belthandle2
+    clip: {fileID: 8300000, guid: f73e3579ec0194acfa65eb25189b03cd, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/bookclose
+    clip: {fileID: 8300000, guid: 361f074d3444d36558d6096f72e353fa, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/bookflip1
+    clip: {fileID: 8300000, guid: b493d9cf7c56e304086d5b537d217733, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/bookflip2
+    clip: {fileID: 8300000, guid: 39225362fcb66959ba8aa0e0752e0658, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/bookflip3
+    clip: {fileID: 8300000, guid: 2d96eca0753b02c288b0637732d26c5f, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/bookopen
+    clip: {fileID: 8300000, guid: 0ba4f3c8b6aeca5ad9dd3026b0b4866a, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/bookplace1
+    clip: {fileID: 8300000, guid: cbff470db68a9421a867cde6988580a8, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/bookplace2
+    clip: {fileID: 8300000, guid: b6fd6fdfe4a33a2a6b6604f270fb447e, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/bookplace3
+    clip: {fileID: 8300000, guid: 309220ca78708c71e90a79b3c2c99e9f, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/chop
+    clip: {fileID: 8300000, guid: 328fe14481b3db311a8faa5948e17102, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/cloth1
+    clip: {fileID: 8300000, guid: 5452b7399c9a4e964a93b4ba731f0333, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/cloth2
+    clip: {fileID: 8300000, guid: 91bab29741fedc530947bb7c9dc96b37, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/cloth3
+    clip: {fileID: 8300000, guid: 5d281e752727e0d07be9b011bd89c96d, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/cloth4
+    clip: {fileID: 8300000, guid: 7ff503d81c133d3faa1f66ebdbcfe0c8, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/clothbelt
+    clip: {fileID: 8300000, guid: c25cec38da1b9f9e994e9906367198b9, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/clothbelt2
+    clip: {fileID: 8300000, guid: b964b9e6c36ebca409c7bd5e74d5a363, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/creak1
+    clip: {fileID: 8300000, guid: 58a61228bf68ec79ea75fc9a577fbfd4, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/creak2
+    clip: {fileID: 8300000, guid: d09c704c8267d1722812ab4ff3028666, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/creak3
+    clip: {fileID: 8300000, guid: e52cddc9bdb4db05fb6ce257d3970625, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/doorclose_1
+    clip: {fileID: 8300000, guid: d1e8dd02e4af48a9f9aca9990c1e268c, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/doorclose_2
+    clip: {fileID: 8300000, guid: 7b3330403ffe8e9b3a20f66ff419cd92, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/doorclose_3
+    clip: {fileID: 8300000, guid: 8418f543747663ac8be12c44689a9598, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/doorclose_4
+    clip: {fileID: 8300000, guid: 42c24c1440771b834b992dc61f813882, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/dooropen_1
+    clip: {fileID: 8300000, guid: 9c4b6484293ecfbf0acdd1302a809633, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/dooropen_2
+    clip: {fileID: 8300000, guid: af214fe45c8880258b6ad1fb1a58a44c, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/drawknife1
+    clip: {fileID: 8300000, guid: 01c37ca2d27df9c30ac97ee60db701ef, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/drawknife2
+    clip: {fileID: 8300000, guid: ebff42de88b70cf2c84e49d755ed7200, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/drawknife3
+    clip: {fileID: 8300000, guid: 0e8043ac5163406ed9c1c6c3338b7820, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/dropleather
+    clip: {fileID: 8300000, guid: b83ce986314edefa78d8933f3f5f04cc, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/footstep00
+    clip: {fileID: 8300000, guid: b65fc525f4e415297bcbb3dae0b2f166, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/footstep01
+    clip: {fileID: 8300000, guid: b0d7d53d912766bc685bccbba6eb4142, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/footstep02
+    clip: {fileID: 8300000, guid: 6ca299c16f56794e7aa9f2a3664994bb, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/footstep03
+    clip: {fileID: 8300000, guid: 3d6535e6a3634b1398868077a2825108, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/footstep04
+    clip: {fileID: 8300000, guid: 5331404796ef194e29a8de0dd9cb099f, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/footstep05
+    clip: {fileID: 8300000, guid: 125895da5544056c79df75a74d2df560, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/footstep06
+    clip: {fileID: 8300000, guid: 3bf2e4763edb8732e914006e8f6e13e1, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/footstep07
+    clip: {fileID: 8300000, guid: a3164180e72556eed92fd8a0213da1b9, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/footstep08
+    clip: {fileID: 8300000, guid: afc6ca0333e3e94f7a322e19a40fd2cd, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/footstep09
+    clip: {fileID: 8300000, guid: 98c95bf8ae44fda8d85b4aa033bb8b9b, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/handlecoins
+    clip: {fileID: 8300000, guid: 9592aca9ef6d24ae6ae1565ca544879b, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/handlecoins2
+    clip: {fileID: 8300000, guid: dc23332735fea3e8c9245436af084681, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/handlesmallleather
+    clip: {fileID: 8300000, guid: 16c7a23f025533aa895bd23e75a927fd, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/handlesmallleather2
+    clip: {fileID: 8300000, guid: cac3b1f7a3cf1bf41a10eb1c36b955a8, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/knifeslice
+    clip: {fileID: 8300000, guid: 9d82d0c2e415d9ce5b2fb1dd6b4e3bbf, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/knifeslice2
+    clip: {fileID: 8300000, guid: 9f05dbeb1417ca8bbb0b22abd5560ded, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/metalclick
+    clip: {fileID: 8300000, guid: 6ecdeba8982934152b5594efb2d3ee3a, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/metallatch
+    clip: {fileID: 8300000, guid: c5c9bcfd6fa81529b8db50625cbd0d4f, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/metalpot1
+    clip: {fileID: 8300000, guid: f709a777c52a2696e95a68268b45af01, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/metalpot2
+    clip: {fileID: 8300000, guid: 0b7c0a3bad3ecafc4a70358928fdeca5, type: 3}
+    volume: 0.7
+  - id: sfx/rpg/metalpot3
+    clip: {fileID: 8300000, guid: c2e06efe9329cf74583d2974af62c8b6, type: 3}
+    volume: 0.7
+  - id: music/music_chilllofi
+    clip: {fileID: 8300000, guid: dbe83d7f03969d3b68f30ce2b394c1ee, type: 3}
+    volume: 0.8
+  - id: music/music_jungle
+    clip: {fileID: 8300000, guid: 0e8ea07dcbcdbe5ee80cec16174c7872, type: 3}
+    volume: 0.8
+  - id: music/music_calm
+    clip: {fileID: 8300000, guid: 704b18b10c7b0f1c98c84e9ba0f34e1e, type: 3}
+    volume: 0.8
+  - id: music/music_chillwave
+    clip: {fileID: 8300000, guid: 32491d5804df93dfea1da22d18f037ed, type: 3}
+    volume: 0.8
+  - id: amb/amb_rain_loop
+    clip: {fileID: 8300000, guid: 99a541d45ae75431c8257758b6886ec8, type: 3}
+    volume: 0.8
+  - id: confirmation
+    clip: {fileID: 8300000, guid: 142c2bd08a1af3eeda651e2b900fba48, type: 3}
+    volume: 0.8
+  - id: pickup
+    clip: {fileID: 8300000, guid: 71a809f1caa51bc09a73b54b352bbaf6, type: 3}
+    volume: 0.8
+  - id: objective_next
+    clip: {fileID: 8300000, guid: 142c2bd08a1af3eeda651e2b900fba48, type: 3}
+    volume: 0.8
+  - id: mission_complete
+    clip: {fileID: 8300000, guid: 1304e7b508062e9b78a687a5933b703d, type: 3}
+    volume: 0.8
+  - id: fail
+    clip: {fileID: 8300000, guid: 457d24e48fcd4314e98379ac2c4ea7a9, type: 3}
+    volume: 0.8
+  - id: discover
+    clip: {fileID: 8300000, guid: db3d7ca797214fb53b002169f6d0458e, type: 3}
+    volume: 0.8
+  - id: gate
+    clip: {fileID: 8300000, guid: 778dc5441d56b0245aaa7b05712bb523, type: 3}
+    volume: 0.8
+  - id: fasttravel
+    clip: {fileID: 8300000, guid: 89ee2f82c6a5cf05f949af95ec60396b, type: 3}
+    volume: 0.8
+  musicSourceA: {fileID: 0}
+  musicSourceB: {fileID: 0}
+  ambienceSource: {fileID: 0}
+  oneShotVoices: 10
+  oneShotCullDistance: 60

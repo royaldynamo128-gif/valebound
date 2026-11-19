@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: s04_embers
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: s04_embers
+  title: Ember Watch
+  introText: Emberfall's volcano rumbles; the observatory needs sensor data cards
+    swapped before the next tremor. Ash falls like grey snow.
+  completeText: "Data cards swapped. The seismograph draws a jagged line \u2014 Vo
+    says that means 'not today'."
+  giverNpcId: vo
+  storyIndex: -1
+  isMainStory: 0
+  objectives:
+  - type: 3
+    description: Drive up the ash road to the observatory
+    targetPos: {x: 1900, y: 0, z: -1610}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 4
+    description: Swap the sensor data cards
+    targetPos: {x: 1910, y: 0, z: -1620}
+    radius: 12
+    timeLimit: 100
+    vehicleId: 
+    count: 4
+    collected: 0
+  - type: 3
+    description: Get clear of the ash zone
+    targetPos: {x: 1900, y: 0, z: -1400}
+    radius: 14
+    timeLimit: 90
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 380
+    xp: 180
+    unlockVehicleId: bike-sport
+    achievementId: 
+  requiresMissionId: 
+  requiredPlayerLevel: 2

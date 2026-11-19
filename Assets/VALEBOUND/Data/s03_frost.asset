@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: s03_frost
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: s03_frost
+  title: Cold Chain
+  introText: "Frostpeak's clinic is out of plasma. Officer Dana clears you an escort
+    run over the ice fields \u2014 steady hands, steady wheels."
+  completeText: The clinic director signs the manifest and offers you cocoa. You
+    accept. It's that cold.
+  giverNpcId: dana
+  storyIndex: -1
+  isMainStory: 0
+  objectives:
+  - type: 8
+    description: Meet the medic at Frostpeak gate
+    targetPos: {x: -1900, y: 0, z: 1510}
+    radius: 8
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 1
+    description: Deliver plasma to the clinic
+    targetPos: {x: -1900, y: 0, z: 1400}
+    radius: 10
+    timeLimit: 120
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 3
+    description: Return via the frozen lake road
+    targetPos: {x: -2040, y: 0, z: 1340}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 320
+    xp: 160
+    unlockVehicleId: 
+    achievementId: 
+  requiresMissionId: 
+  requiredPlayerLevel: 2

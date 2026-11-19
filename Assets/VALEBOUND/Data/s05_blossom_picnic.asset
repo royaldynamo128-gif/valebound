@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: s05_blossom_picnic
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: s05_blossom_picnic
+  title: The Blossom Picnic
+  introText: Dr. Hale wants soil samples from all four biome cities for her climate
+    survey. A scenic, and very long, drive.
+  completeText: Four samples, four biomes, one very complete climate dataset. Hale
+    is thrilled.
+  giverNpcId: hale
+  storyIndex: -1
+  isMainStory: 0
+  objectives:
+  - type: 4
+    description: Sample Petal Vale's blossom soil
+    targetPos: {x: 1800, y: 0, z: 300}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 4
+    description: Sample Mirage Basin's dune sand
+    targetPos: {x: -1900, y: 0, z: -1400}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 4
+    description: Sample Frostpeak's permafrost
+    targetPos: {x: -1900, y: 0, z: 1400}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 4
+    description: Sample Emberfall's volcanic ash
+    targetPos: {x: 1900, y: 0, z: -1500}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 500
+    xp: 240
+    unlockVehicleId: 
+    achievementId: biome_survey
+  requiresMissionId: 
+  requiredPlayerLevel: 2

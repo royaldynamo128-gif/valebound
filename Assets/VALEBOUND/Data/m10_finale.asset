@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: m10_finale
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: m10_finale
+  title: Valebound
+  introText: Theo is at the old mill by Millbrook Village. Meridian's recovery squad
+    is already on the way. This is the last delivery.
+  completeText: "Theo is safe, the evidence is public, and the valley stays Valebound.
+    Epilogue unlocked \u2014 free roam forever."
+  giverNpcId: mara
+  storyIndex: 9
+  isMainStory: 1
+  objectives:
+  - type: 8
+    description: Meet Mara and the convoy at the village
+    targetPos: {x: -650, y: 0, z: -650}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 3
+    description: Race Meridian to the Old Mill
+    targetPos: {x: -570, y: 0, z: -710}
+    radius: 12
+    timeLimit: 160
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 1
+    description: Bring Theo home to Bounders HQ
+    targetPos: {x: -60, y: 0, z: 740}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 1200
+    xp: 600
+    unlockVehicleId: race
+    achievementId: story_10
+  requiresMissionId: m09_
+  requiredPlayerLevel: 5

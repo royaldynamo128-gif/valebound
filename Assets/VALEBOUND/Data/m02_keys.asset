@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: m02_keys
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: m02_keys
+  title: Keys to the Valley
+  introText: The round is too big on foot. Mara hands you Theo's old sedan and a
+    route card for Willowbrook.
+  completeText: The old sedan still runs strong. Mara smiles for the first time in
+    weeks.
+  giverNpcId: mara
+  storyIndex: 1
+  isMainStory: 1
+  objectives:
+  - type: 2
+    description: Enter Theo's sedan at the guild garage
+    targetPos: {x: -46, y: 0, z: 748}
+    radius: 8
+    timeLimit: 0
+    vehicleId: sedan
+    count: 1
+    collected: 0
+  - type: 3
+    description: Drive to Willowbrook Park
+    targetPos: {x: -700, y: 0, z: 700}
+    radius: 10
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 1
+    description: Deliver school supplies to Maple Elementary
+    targetPos: {x: -780, y: 0, z: 620}
+    radius: 8
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 180
+    xp: 90
+    unlockVehicleId: hatchback
+    achievementId: story_2
+  requiresMissionId: m01_
+  requiredPlayerLevel: 1

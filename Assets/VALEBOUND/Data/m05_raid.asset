@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: m05_raid
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: m05_raid
+  title: Warehouse Raid
+  introText: A stack of guild parcels has been 'misrouted' to a Meridian warehouse
+    at the lab annex. Get them back before the audit.
+  completeText: "Parcels recovered \u2014 and one of them is addressed to Theo, unopened,
+    from six years ago."
+  giverNpcId: mara
+  storyIndex: 4
+  isMainStory: 1
+  objectives:
+  - type: 3
+    description: Drive to the Meridian Lab Annex
+    targetPos: {x: 860, y: 0, z: -800}
+    radius: 12
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 4
+    description: Recover the misrouted guild parcels
+    targetPos: {x: 860, y: 0, z: -790}
+    radius: 10
+    timeLimit: 120
+    vehicleId: 
+    count: 5
+    collected: 0
+  - type: 1
+    description: Return the parcels to Bounders HQ
+    targetPos: {x: -60, y: 0, z: 740}
+    radius: 10
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 380
+    xp: 170
+    unlockVehicleId: suv
+    achievementId: story_5
+  requiresMissionId: m04_
+  requiredPlayerLevel: 3

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: VehicleDef_race-future
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound.Vehicle:VehicleDef
+  vehicleId: race-future
+  displayName: Ion X
+  vehicleClass: 2
+  icon: {fileID: 0}
+  maxSpeedKph: 204
+  reverseSpeedKph: 30
+  acceleration: 16
+  braking: 16
+  steeringDegPerSec: 92
+  gripFactor: 0.92
+  downforce: 1.2
+  suspensionHeight: 0.28
+  bodyTiltRoll: 4
+  modelPrefab: {fileID: 0}
+  isBike: 0
+  price: 14000
+  unlockMissionIndex: 9
+  engineStart: {fileID: 0}
+  engineLoop: {fileID: 0}
+  horn: {fileID: 0}

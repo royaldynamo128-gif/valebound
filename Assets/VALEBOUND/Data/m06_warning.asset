@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: m06_warning
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: m06_warning
+  title: A Friendly Warning
+  introText: 'Dr. Imogen Hale slips you a note at the plaza: Meridian''s ''Valebound
+    Initiative'' is not a logistics project. She wants to talk at the lake.'
+  completeText: 'Hale shows you satellite photos: the ''hub'' is a land lock. And
+    Theo was investigating it when he vanished.'
+  giverNpcId: hale
+  storyIndex: 5
+  isMainStory: 1
+  objectives:
+  - type: 8
+    description: Meet Dr. Hale at Horseshoe Lake
+    targetPos: {x: 550, y: 0, z: 250}
+    radius: 10
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 0
+    description: Walk with Hale to the overlook
+    targetPos: {x: 550, y: 0, z: 290}
+    radius: 6
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 1
+    description: Deliver Hale's dossier to the police post
+    targetPos: {x: -680, y: 0, z: 560}
+    radius: 8
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 420
+    xp: 190
+    unlockVehicleId: 
+    achievementId: story_6
+  requiresMissionId: m05_
+  requiredPlayerLevel: 3

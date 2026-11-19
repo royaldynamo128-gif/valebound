@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: m08_night_run
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: m08_night_run
+  title: The Night Run
+  introText: 'Vo knows where Theo''s last parcel was delivered. Payment: one very
+    illegal, very fast night drive to the radio tower.'
+  completeText: 'You deliver a sealed crate to a radio engineer. He taps the box:
+    ''This is Theo''s broadcast key.'''
+  giverNpcId: vo
+  storyIndex: 7
+  isMainStory: 1
+  objectives:
+  - type: 8
+    description: Meet Vo at the Harbor Docks
+    targetPos: {x: -200, y: 0, z: 540}
+    radius: 8
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 3
+    description: Night drive to the Radio Tower
+    targetPos: {x: 1200, y: 0, z: 1200}
+    radius: 14
+    timeLimit: 240
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 1
+    description: Hand the crate to the engineer
+    targetPos: {x: 1200, y: 0, z: 1212}
+    radius: 6
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 520
+    xp: 240
+    unlockVehicleId: sedan-sports
+    achievementId: story_8
+  requiresMissionId: m07_
+  requiredPlayerLevel: 4

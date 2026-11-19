@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: s02_dunes
+  m_EditorClassIdentifier: Valebound.Runtime:Valebound:MissionDef
+  missionId: s02_dunes
+  title: Mirage Run
+  introText: Cass needs engine parts from Mirage Basin before the noon heat warps
+    them. Cacti, dunes, and one very straight highway.
+  completeText: "Parts delivered. Cass wipes sweat off the last crate: 'Desert driving
+    \u2014 you're getting good at this.'"
+  giverNpcId: cass
+  storyIndex: -1
+  isMainStory: 0
+  objectives:
+  - type: 3
+    description: Drive to Mirage Basin depot
+    targetPos: {x: -1900, y: 0, z: -1310}
+    radius: 12
+    timeLimit: 150
+    vehicleId: 
+    count: 1
+    collected: 0
+  - type: 1
+    description: Hand the parts to the depot foreman
+    targetPos: {x: -1900, y: 0, z: -1300}
+    radius: 8
+    timeLimit: 0
+    vehicleId: 
+    count: 1
+    collected: 0
+  reward:
+    credits: 300
+    xp: 150
+    unlockVehicleId: 
+    achievementId: 
+  requiresMissionId: 
+  requiredPlayerLevel: 2
